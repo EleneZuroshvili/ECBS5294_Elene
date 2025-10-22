@@ -186,9 +186,9 @@ By the end, students can:
 
   * Format: Short-answer questions, SQL query writing, scenario-based problems (e.g., choosing appropriate join types, identifying data quality issues).
 
-  * Duration: Full block (100 minutes).
+  * Duration: 90 minutes.
 
-  * Closed-book; one reference sheet (letter-size, both sides) permitted.
+  * One A4 reference sheet (both sides, typed or handwritten) permitted.
 
 * **Assigned:** **HW3** (end-to-end pipeline using an **offline data pack** — CSV \+ JSON \+ Parquet).
 

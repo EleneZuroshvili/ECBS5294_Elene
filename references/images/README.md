@@ -37,3 +37,18 @@ Under CC BY-SA 4.0, you must:
 - If you remix or adapt the work, distribute under the same license
 
 These images are used unmodified for educational purposes in ECBS5294.
+
+---
+
+## Course Evaluation QR Code
+
+**File:** `course_evaluation_qr.png`
+
+**Usage:** Displayed at the end of Day 3 Block A notebook to prompt students to complete course evaluation.
+
+**Note:** This QR code should be provided by the instructor and saved to this location before teaching Day 3.
+
+**Usage in Notebooks:**
+```markdown
+![Course Evaluation QR Code](../../references/images/course_evaluation_qr.png)
+```

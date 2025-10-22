@@ -168,7 +168,7 @@ ECBS5294/
 
 ### Day 3 – Pipelines & Assessment
 - **Block A:** Pipeline patterns + validations (bronze/silver/gold layers)
-- **Block B:** In-class exam (paper/pen, 60 minutes)
+- **Block B:** In-class exam (paper/pen, 90 minutes, one A4 reference sheet)
 - **Assigned:** Homework 3 (due one week after class)
 
 📅 **Specific dates:** See [syllabus.md](syllabus.md) for the current term's schedule.

@@ -1,9 +1,9 @@
 # Homework 3: Multi-City Data Integration & Pipeline
 
 **Course:** ECBS5294 - Introduction to Data Science: Working with Data
-**Due:** Wednesday, October 29, 23:59
+**Due:** Wednesday, November 5, 23:59
 **Total Points:** 100
-**Est. Time:** 4-5 hours
+**Est. Time:** 6-8 hours over 2 weeks
 
 ---
 
@@ -20,6 +20,20 @@ This is your **final project** for the course. You'll demonstrate every skill yo
 - Document for stakeholders
 
 **This is real data analyst work.** You're simulating what happens when your manager hands you data from multiple sources and says "make sense of this."
+
+### Why 2 Weeks Instead of 1?
+
+This assignment integrates **ALL skills from Days 1-3** (tidy data, SQL, JSON, pipelines). Unlike HW1 and HW2 which each focused on one day's content, HW3 is your capstone project demonstrating everything you've learned.
+
+With 6-8 hours of work over 2 weeks, you can:
+- Explore the data thoroughly without rushing
+- Refine your analysis iteratively
+- Produce portfolio-quality work you're proud of
+- Balance this with your other coursework and commitments
+
+**Recommended pace:** ~30-40 minutes per day = low pressure, high quality
+
+**Questions?** Email throughout the 2 weeks—don't wait until the last day!
 
 ---
 
@@ -248,7 +262,11 @@ assert df['date'].min() >= pd.Timestamp('2015-01-01'), "Dates too old!"
 **Create business KPIs for the steering committee.**
 
 **Requirements:**
-Create **5-7 analytical queries** answering business questions. Mix of single-dataset and creative analysis.
+Create **5-6 analytical queries** answering business questions.
+- **Minimum:** 5 KPIs required (15 points)
+- **Bonus:** 6th KPI earns +2 bonus points
+- Quality over quantity: Five well-crafted KPIs > seven rushed queries
+- Mix of single-dataset and creative analysis
 
 **Suggested analyses (choose or create your own):**
 
@@ -270,7 +288,7 @@ Create **5-7 analytical queries** answering business questions. Mix of single-da
 3. Any geographic insights using lat/lon
 
 **Requirements:**
-- At least 5 KPIs (max 7)
+- At least 5 KPIs (6th earns +2 bonus points)
 - Clear business context for each (why does this matter?)
 - Use appropriate aggregations (COUNT, SUM, AVG, etc.)
 - Use GROUP BY where appropriate
@@ -280,6 +298,7 @@ Create **5-7 analytical queries** answering business questions. Mix of single-da
 - 10 pts: KPIs are well-chosen and answer business questions
 - 3 pts: SQL queries are correct and efficient
 - 2 pts: Results display clearly with business context
+- +2 pts: BONUS for 6th high-quality KPI
 
 ---
 
@@ -347,7 +366,7 @@ Write **8-10 sentences** for non-technical executives explaining:
 
 - **File name:** `hw3_[your_name].ipynb` (e.g., `hw3_jane_doe.ipynb`)
 - **How:** Upload to Moodle
-- **When:** **Wednesday, October 29, 23:59** (one week after class)
+- **When:** **Wednesday, November 5, 23:59** (two weeks after class)
 
 ### Before Submitting - Checklist
 
@@ -445,15 +464,22 @@ Each component is graded on:
 
 ### Start Early!
 
-**Recommended schedule:**
+**Recommended schedule (2 weeks):**
 
-- **Day 3 (Oct 22), Evening:** Part 1 & 2 (Ingestion, Bronze) - 1 hour
-- **Oct 23-24:** Part 3 (Silver normalization) - 1.5 hours
-- **Oct 25-26:** Part 4 & 5 (Validations, Gold KPIs) - 1.5 hours
-- **Oct 27-28:** Part 6 (Documentation) - 1 hour
-- **Oct 29 (morning):** Final review, test end-to-end, submit - 30 min
+**Week 1: Data Pipeline Foundation**
+- **Oct 22 (Evening):** Read assignment thoroughly, explore data - 1 hour
+- **Oct 23-24:** Parts 1-2 (Ingestion, Bronze layers) - 1 hour
+- **Oct 25-27:** Part 3 (Silver normalization, type conversions) - 2-3 hours
 
-**Don't wait until October 28!** This is substantial work.
+**Week 2: Analysis & Documentation**
+- **Oct 28-29:** Part 4 (Validations - write assertions) - 1.5 hours
+- **Oct 30-Nov 1:** Part 5 (KPIs - start with 3-4, refine) - 2 hours
+- **Nov 2-3:** Finish Part 5, complete Part 6 (Documentation) - 1.5 hours
+- **Nov 4-5:** Final review, Restart & Run All, polish, submit - 1 hour
+
+**Total: ~10 hours over 14 days = very manageable pace**
+
+**Don't wait until November 4 to start!** Questions? Email throughout the 2 weeks.
 
 ### Pipeline Development Strategy
 
